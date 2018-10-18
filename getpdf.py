@@ -24,4 +24,7 @@ def get_pdf_direct():
         urllib.request.urlretrieve(pdf_addr, 'paper/%s.pdf' % pdf_idx)
 
 
-get_pdf_direct()
+# get_pdf_direct()
+
+urllib.request.urlretrieve('http://www.starke-consult.de/UoE/GitHub/SIGGRAPH_2018/Output.txt', 'Output.txt')
+
